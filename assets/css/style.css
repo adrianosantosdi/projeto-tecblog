@@ -78,6 +78,7 @@ body {
 .titulo-postagem p {
     padding: 5px;
     margin: 0 0 10px 0;
+    line-height: 1.5;
 }
 
 .titulo-postagem a {
