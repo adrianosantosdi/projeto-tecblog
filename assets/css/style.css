@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-principal);
+}
+
+:root {
+    --color-header: #F7B600 ;
+    --color-white: #FFF;
+    --fonte-principal: "Roboto", sans-serif;
+    --color-cinza: #CCC;
+    --color-body: #E6E6E6;
+    --color-cabecalho: #4E4E4E;
+}
+
+body {
+    background-color: var(--color-body);
+}
+
+.header-top {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: var(--color-header);
+}
+
+.header__cabecalho {
+    margin: 30px 0 0 0;
+    color: var(--color-cabecalho);
+    font-size: 2.5rem;
+}
+
+.content-blog {
+    color: var(--color-white);
+}
+
+.nav-top {
+    
+}
+
+.nav-top ul {
+    display: flex;
+    margin: 20px 0 0 0;
+    gap: 1rem;
+    list-style: none;
+}
+
+.nav-top a {
+    display: block;
+    text-decoration: none;
+    color: var(--color-white);
+    padding: 10px;
+}
+
+.nav-top a:hover {
+    color: var(--color-header);
+    background-color: var(--color-white);
+    transition: .5s;
+}
+
+.principal {
+    width: 60%;
+    margin: 10px auto;
+}
+
+.titulo-postagem {
+    width: 100%;
+}
+
+.titulo-postagem h2 {
+    color: var(--color-header);
+    padding: 5px;
+}
+
+.titulo-postagem p {
+    padding: 5px;
+    margin: 0 0 10px 0;
+}
+
+.titulo-postagem a {
+    display: block;
+    color: var(--color-header);
+    text-decoration: none;
+    margin: 0 0 10px 0;
+}
+
+.postagens-recentes {
+    width: 40%;
+}
+
+.postagens-recentes h2 {
+    padding: 5px;
+    background-color: var(--color-cinza);
+    margin: 5px 0 10px 0;
+}
+
+.postagens-recentes p {
+    padding: 5px;
+    letter-spacing: 1.1px;
+}
+
+.postagens-recentes a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: var(--color-header);
+}
+
+.postagens-recentes ul {
+    list-style: none;
+}
+
+.postagens {
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+}
+
+.rodape {
+    text-align: center;
+    padding: 15px;
+    background-color: #CCC;
+}
